@@ -99,6 +99,7 @@ mkdir src && mkdir src/test
 Next, create a dependency directory, called `depends`, and add `libsnark` as a submodule.
 ```
 mkdir depends && cd depends
+git init
 git submodule add https://github.com/scipr-lab/libsnark.git libsnark
 ```
 
